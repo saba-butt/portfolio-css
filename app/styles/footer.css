@@ -1,0 +1,27 @@
+.footer {
+    margin-top:4rem;
+    padding: 1.5rem;
+    background-color: #f0f0f0;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: #1a0404;
+    text-align: center;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    overflow: auto;
+}
+/* responsive styles */
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 2rem;
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+}
+@media (min-width: 768px) {
+    .footer {
+        padding:1.5rem;
+        font-size:1.12rem;
+}
+}
